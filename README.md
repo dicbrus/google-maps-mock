@@ -1,5 +1,5 @@
-# angular-google-maps-mock
-Karma Mock for Unit Testing with Angular Google Maps Services
+# angular-maps-mock
+Google Maps Mock for Karma Unit Tests with Angular 
 
 ## Adding to project
 Can be simply to you project just by npm:
