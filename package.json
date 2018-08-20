@@ -1,0 +1,20 @@
+{
+	"author": "https://github.com/dicbrus",
+	"name": "google-maps-mock",
+	"main": "src/maps.googleapis.com-maps-api.js",
+	"keywords": [
+		"angular",
+		"unit test",
+		"mock",
+		"google maps"
+	],
+	"description" : "Google maps mock for unit tests",
+	"version": "0.0.1",
+	"homepage" : "https://github.com/dicbrus/angular-google-maps-mock",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dicbrus/angular-google-maps-mock.git"
+	},
+	"dependencies": {},
+	"devDependencies": {}
+}
