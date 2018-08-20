@@ -1,13 +1,13 @@
 # angular-maps-mock
 Google Maps Mock for Karma Unit Tests with Angular 
 
-## Adding to project
-Can be simply to you project just by npm:
+## 1. Adding to project
+Add it by `npm install`:
 ```
     npm i -sD dicbrus/google-maps-mock
 ```
 
-## Including into angular testing confuguration (file angular.json)
+## 2. Including into angular testing confuguration (file angular.json)
 ```
 {
   "projects": {
