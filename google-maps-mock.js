@@ -9,7 +9,8 @@
       },
       InfoWindow : function() {},
       LatLng: function(lat, lng){
-        return [lat, lng];
+        this.lat = () => lat;
+        this.lng = () => lng;
       },
       Size: function() {},
       Animation: {
