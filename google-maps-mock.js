@@ -2,14 +2,18 @@
   window.google = window.google || {
     maps: {
       Map: function(){},
-      OverlayView : function () {
+      OverlayView : function () {},
+      Geocoder: function() {},
+      Marker:  function() {
+        this.addListener = () => {}
       },
-      Marker : function () {
-      },
-      InfoWindow : function () {
-      },
+      InfoWindow : function() {},
       LatLng: function(lat, lng){
         return [lat, lng];
+      },
+      Size: function() {},
+      Animation: {
+        DROP: ''
       },
       MapTypeId: {ROADMAP: true},
       places: {
