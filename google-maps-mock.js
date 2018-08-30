@@ -1,13 +1,20 @@
 (function(){
   window.google = window.google || {
     maps: {
-      Map: function(){},
+      Map: function() {
+        this.fitBounds = (bounds, padding) => {};
+      },
       OverlayView : function () {},
       Geocoder: function() {},
       Marker:  function() {
-        this.addListener = () => {}
+        this.addListener = () => {};
+        this.setPosition = () => {};
+        this.setMap = () => {};
       },
-      InfoWindow : function() {},
+      InfoWindow : function() {
+        this.setContent = () => {};
+        this.close = () => {};
+      },
       LatLng: function(lat, lng){
         this.lat = () => lat;
         this.lng = () => lng;
@@ -18,6 +25,9 @@
       },
       MapTypeId: {ROADMAP: true},
       places: {
+        Autocomplete: function() {
+          this.addListener = () => {};
+        },
         AutocompleteService: function() {},
         PlacesService: function(obj){
           return {
