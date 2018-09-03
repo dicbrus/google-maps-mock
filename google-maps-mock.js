@@ -42,6 +42,9 @@
             }
           };
         }
+      },
+      GeocoderStatus: {
+        OK: 'OK'
       }
     }
   };
