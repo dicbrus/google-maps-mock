@@ -3,6 +3,7 @@
     maps: {
       Map: function() {
         this.fitBounds = (bounds, padding) => {};
+        this.addListener = () => {};
       },
       OverlayView : function () {},
       Geocoder: function() {},
