@@ -44,6 +44,32 @@
           };
         }
       },
+      event: {
+        addDomListener: () => {
+          return {
+            remove: () => {}
+          }
+        },
+        addDomListenerOnce: () => {
+          return {
+            remove: () => {}
+          }
+        },
+        addListener: () => {
+          return {
+            remove: () => {}
+          }
+        },
+        addListenerOnce: () => {
+          return {
+            remove: () => {}
+          }
+        },
+        clearInstanceListeners: () => {},
+        clearListeners: () => {},
+        removeListener: () => {},
+        trigger: () => {}
+      },
       GeocoderStatus: {
         OK: 'OK'
       }
