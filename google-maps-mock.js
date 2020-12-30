@@ -28,6 +28,9 @@
       places: {
         Autocomplete: function() {
           this.addListener = () => {};
+          this.setFields = () => {};
+          this.setComponentRestrictions = () => {};
+          this.getPlace = () => {};
         },
         AutocompleteService: function() {},
         PlacesService: function(obj){
